@@ -27,7 +27,7 @@ function capitalize(str) {
     result += " ";
   }
 
-  return result;
+  return result.slice(0, -1);
 }
 // capitalize("look, it is working!");
 module.exports = capitalize;
